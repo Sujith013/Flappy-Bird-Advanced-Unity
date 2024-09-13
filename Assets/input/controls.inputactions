@@ -1,0 +1,65 @@
+{
+    "name": "controls",
+    "maps": [
+        {
+            "name": "InGame",
+            "id": "6c8c5793-0778-41a2-ad02-5907d6175537",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "PassThrough",
+                    "id": "bf0085b3-4e9e-46a1-b688-9e226f6b2428",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Arrow_button",
+                    "type": "Button",
+                    "id": "820f3e46-ec96-4172-92ef-ec7246b973b3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6540fba1-caf4-4187-be16-f5e700cc9cbe",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "29d93500-1fa1-495a-b062-a3cffabcbd5a",
+                    "path": "<Touchscreen>/touch*/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "acc8544c-2426-4a36-ad51-9d41ea04dceb",
+                    "path": "<Keyboard>/#(E)",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Arrow_button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
